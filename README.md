@@ -164,18 +164,31 @@ div a
 <details>
 <summary>Answer
 </summary>
+
 - [ ] Opacity specifies the level of transparency of the child elements. Background with a `rgba()` value applies transparency to the background color only.
 - [ ] Opacity applies transparency to the background color only. Background with an `rgba()` value specifies the level of transparency of an element, as a whole, including its content.
 - [x] Opacity specifies the level of transparency of an element, including its content. Background with a `rgba()` value applies transparency to the background color only.
 - [ ] Opacity applies transparency to the parent and child elements. Background with a `rgba()` value specifies the level of transparency of the parent element only.
+
 </details>
 
 #### Q7. What is true of block and inline elements? (_Alternative_: Which statement about block and inline elements is true?)
 
 - [ ] By default, block elements are the same height and width as the content container between their tags; inline elements span the entire width of its container.
+- [ ] By default, block elements span the entire width of their container; inline elements are the same height and width as the content contained between their tags.
+- [ ] A `<nav>` element is an example of an inline element. `<header>` is an example of a block element.
+- [ ] A `<span>` is an example of a block element. `<div>` is an example of an inline element.
+
+<details>
+<summary>Answer
+</summary>
+
+- [ ] By default, block elements are the same height and width as the content container between their tags; inline elements span the entire width of its container.
 - [x] By default, block elements span the entire width of their container; inline elements are the same height and width as the content contained between their tags.
 - [ ] A `<nav>` element is an example of an inline element. `<header>` is an example of a block element.
 - [ ] A `<span>` is an example of a block element. `<div>` is an example of an inline element.
+
+</details>
 
 #### Q8. CSS grid introduced a new length unit, fr, to create flexible grid tracks. Referring to the code sample below, what will the widths of the three columns be?
 
@@ -188,29 +201,61 @@ div a
 ```
 
 - [ ] The first column will have a width of 50px. The second column will be 50px wide and the third column will be 100px wide.
-- [x] The first column will have a width of 50px. The second column will be 150px wide and the third column will be 300px wide.
+- [ ] The first column will have a width of 50px. The second column will be 150px wide and the third column will be 300px wide.
 - [ ] The first column will have a width of 50px. The second column will be 300px wide and the third column will be 150px wide.
 - [ ] The first column will have a width of 50px. The second column will be 500px wide and the third column will be 1000px wide.
 
 **Note:**an alternative to the question below.`
 
+<details>
+<summary>Answer
+</summary>
+
+- [ ] The first column will have a width of 50px. The second column will be 50px wide and the third column will be 100px wide.
+- [x] The first column will have a width of 50px. The second column will be 150px wide and the third column will be 300px wide.
+- [ ] The first column will have a width of 50px. The second column will be 300px wide and the third column will be 150px wide.
+- [ ] The first column will have a width of 50px. The second column will be 500px wide and the third column will be 1000px wide.
+
+</details>
+
 #### Q9. If the width of the container is 500 pixels, what would the width of the three columns be in this layout?
 
 `.grid { display: grid; grid-template-columns: 50px 1fr 2fr; }`
 
-- [x] 50px, 150px, 300px
+- [ ] 50px, 150px, 300px
 - [ ] 50px, 200px, 300px
 - [ ] 50px, 100px, 200px
 - [ ] 50px, 50px, 100px
 
 **Note:**an alternative to the question above.`
 
+<details>
+<summary>Answer
+</summary>
+
+- [ ] 50px, 150px, 300px
+- [ ] 50px, 200px, 300px
+- [ ] 50px, 100px, 200px
+- [ ] 50px, 50px, 100px
+</details>
+
 #### Q10. What is the use of line-height property?
+
+- [ ] to control the height of the space between two lines of content
+- [ ] to control the height of the space between heading elements
+- [ ] to control the height of the character size
+- [ ] to control the width of the space between characters
+
+<details>
+<summary>Answer
+</summary>
 
 - [x] to control the height of the space between two lines of content
 - [ ] to control the height of the space between heading elements
 - [ ] to control the height of the character size
 - [ ] to control the width of the space between characters
+
+</details>
 
 #### Q11. Three of these choices are true about class selectors. Which is NOT true?
 
