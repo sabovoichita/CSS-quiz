@@ -18,12 +18,12 @@ div a
 <summary>Answer
 </summary>
 <textarea>
-```
+
 - [x] `.example a`
 - [ ] `div a`
 - [ ] `a`
 - [ ] `ul li a`
-```
+
 </textarea>
 </details>
 
