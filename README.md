@@ -233,7 +233,7 @@ div a
 <summary>Answer
 </summary>
 
-- [ ] 50px, 150px, 300px
+- [x] 50px, 150px, 300px
 - [ ] 50px, 200px, 300px
 - [ ] 50px, 100px, 200px
 - [ ] 50px, 50px, 100px
@@ -262,31 +262,107 @@ div a
 - [ ] Multiple classes can be used within the same element.
 - [ ] The same class can be used multiple times per page.
 - [ ] Class selectors begin with a leading period
-- [x] Classes can be used multiple times per page but not within the same element.
+- [ ] Classes can be used multiple times per page but not within the same element.
 
 **Note:**an alternative to the question below.`
 
+<details>
+<summary>Answer
+</summary>
+
+- [ ] Multiple classes can be used within the same element.
+- [ ] The same class can be used multiple times per page.
+- [ ] Class selectors begin with a leading period
+- [x] Classes can be used multiple times per page but not within the same element.
+</details>
+
 #### Q12. What is not true about class selectors?
 
-- [x] Only one class value can be assigned to an element.
+- [ ] Only one class value can be assigned to an element.
 - [ ] An element can have multiple class values.
 - [ ] Class selectors are marked with a leading period.
 - [ ] More than one element can have the same class value.
 
 **Note:**an alternative to the question above.`
 
+<details>
+<summary>Answer
+</summary>
+
+- [x] Only one class value can be assigned to an element.
+- [ ] An element can have multiple class values.
+- [ ] Class selectors are marked with a leading period.
+- [ ] More than one element can have the same class value.
+
+</details>
+
 #### Q13. There are many properties that can be used to align elements and create page layouts such as float, position, flexbox, and grid. Of these four properties, which one should be used to align a global navigation bar that stays fixed at the top of the page?
+
+- [ ] position
+- [ ] flexbox
+- [ ] grid
+- [ ] float
+
+<details>
+<summary>Answer
+</summary>
 
 - [x] position
 - [ ] flexbox
 - [ ] grid
 - [ ] float
 
+</details>
+
 #### Q14. In the shorthand example below, which individual background properties are represented?
 
 ```css
 background: blue url(image.jpg) no-repeat scroll 0px 0px;
 ```
+
+- [ ] A
+
+```css
+background-color: blue;
+background-image: url(image.jpg);
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: 0px 0px;
+```
+
+- [ ] B
+
+```css
+background-color: blue;
+background-img: URL(image.jpg);
+background-position: no-repeat;
+background-scroll: scroll;
+background-size: 0px 0px;
+```
+
+- [ ] C
+
+```css
+background-color: blue;
+background-src: URL(image.jpg);
+background-repeat: no-repeat;
+background-wrap: scroll;
+background-position: 0px 0px;
+```
+
+- [ ] D
+
+```css
+background-color: blue;
+background-src: URL(image.jpg);
+background-repeat: no-repeat;
+background-scroll: scroll;
+background-position: 0px 0px;
+```
+
+<details>
+<summary>Answer
+</summary>
 
 - [x] A
 
@@ -328,6 +404,8 @@ background-scroll: scroll;
 background-position: 0px 0px;
 ```
 
+</details>
+
 #### Q15. In this example, according to cascading and specificity rules, what color will the link be?
 
 ```css
@@ -354,22 +432,44 @@ a {
 ```
 
 - [ ] green
+- [ ] yellow
+- [ ] blue
+- [ ] red
+
+<details>
+<summary>Answer
+</summary>
+
+- [ ] green
 - [x] yellow
 - [ ] blue
 - [ ] red
 
+</details>
+
 #### Q16. When elements overlap, they are ordered on the z-axis (i.e., which element covers another). The z-index property can be used to specify the z-order of overlapping elements. Which set of statements about the z-index property are true?
 
-- [x] Larger z-index values appear on top of elements with a lower z-index value. Negative and positive numbers can be used. z-index can only be used on positioned elements.
+- [ ] Larger z-index values appear on top of elements with a lower z-index value. Negative and positive numbers can be used. z-index can only be used on positioned elements.
 - [ ] Smaller z-index values appear on top of elements with a larger z-index value. Negative and positive numbers can be used. z-index must also be used with positioned elements.
 - [ ] Larger z-index values appear on top of elements with a lower z-index value. Only positive numbers can be used. z-index must also be used with positioned elements.
 - [ ] Smaller z-index values appear on top of elements with a larger z-index value. Negative and positive numbers can be used. z-index can be used with or without positioned elements.
 
 **Note:**an alternative to the question below.`
 
+<details>
+<summary>Answer
+</summary>
+
+- [x] Larger z-index values appear on top of elements with a lower z-index value. Negative and positive numbers can be used. z-index can only be used on positioned elements.
+- [ ] Smaller z-index values appear on top of elements with a larger z-index value. Negative and positive numbers can be used. z-index must also be used with positioned elements.
+- [ ] Larger z-index values appear on top of elements with a lower z-index value. Only positive numbers can be used. z-index must also be used with positioned elements.
+- [ ] Smaller z-index values appear on top of elements with a larger z-index value. Negative and positive numbers can be used. z-index can be used with or without positioned elements.
+
+</details>
+
 #### Q17. When elements within a container overlap, the z-index property can be used to indicate how those items are stacked on top of each other. Which set of statements is true?
 
-- [x] A
+- [ ] A
 
 ```
   1. Larger z-index values appear on top elements with a lower z-index value.
@@ -403,6 +503,44 @@ a {
 
 **Note:**an alternative to the question above.`
 
+<details>
+<summary>Answer
+</summary>
+
+- [x] A
+
+```
+  1. Larger z-index values appear on top elements with a lower z-index value.
+  2. Negative and positive numbers can be used.
+  3. The z-index can be used only on positioned elements.
+```
+
+- [ ] B
+
+```
+  1. Smaller z-index values appear on top of elements with a larger z-index value.
+  2. Negative and positive numbers can be used.
+  3. The z-index can be used with or without positioned elements.
+```
+
+- [ ] C
+
+```
+  1. Smaller z-index values appear on top of elements with a larger z-index value.
+  2. Negative and positive numbers can be used.
+  3. The z-index must also be used with positioned elements.
+```
+
+- [ ] D
+
+```
+  1. Larger z-index values appear on top of elements with a lower z-index value.
+  2. Only a positive number can be used.
+  3. The z-index must also be used with positioned elements.
+```
+
+</details>
+
 #### Q18. What is the difference between the following line-height settings?
 
 ```css
@@ -410,10 +548,21 @@ line-height: 20px;
 line-height: 2;
 ```
 
+- [ ] The value of 20px will set the line-height to 20px. The value of 2 will set the line height to twice the size of the corresponding font-size value.
+- [ ] The value of 20px will set the line-height to 20px. The value of 2 is not valid.
+- [ ] The value of 20px will set the line-height to 20px. The value of 2 will default to a value of 2px.
+- [ ] The value of 20px will set the line-height to 20px. The value of 2 will set the line height to 20% of the corresponding font-size value.
+
+<details>
+<summary>Answer
+</summary>
+
 - [x] The value of 20px will set the line-height to 20px. The value of 2 will set the line height to twice the size of the corresponding font-size value.
 - [ ] The value of 20px will set the line-height to 20px. The value of 2 is not valid.
 - [ ] The value of 20px will set the line-height to 20px. The value of 2 will default to a value of 2px.
 - [ ] The value of 20px will set the line-height to 20px. The value of 2 will set the line height to 20% of the corresponding font-size value.
+
+</details>
 
 #### Q19. In the following example, what color will paragraph one and paragraph two be? (_Alternative_: In this example, what color will paragraphs one and two be?)
 
@@ -436,10 +585,57 @@ section + p {
 
 - [ ] Paragraph one will be blue, and paragraph two will be red.
 - [ ] Both paragraphs will be blue.
+- [ ] Paragraph one will be red, and paragraph two will be blue.
+- [ ] Both paragraphs will be red.
+
+<details>
+<summary>Answer
+</summary>
+
+- [ ] Paragraph one will be blue, and paragraph two will be red.
+- [ ] Both paragraphs will be blue.
 - [x] Paragraph one will be red, and paragraph two will be blue.
 - [ ] Both paragraphs will be red.
 
+</details>
+
 #### Q20. What are three valid ways of adding CSS to an HTML page?
+
+- [ ] A
+
+```
+  1. External; CSS is written in a separate file.
+  2. Inline; CSS is added to the <head> of the HTML page.
+  3. Internal; CSS is included within the HTML tags.
+```
+
+- [ ] B
+
+```
+  1. External; CSS is written in a separate file and is linked within the <header> element of the HTML file.
+  2. Inline; CSS is added to the HTML tag.
+  3. Internal; CSS is included within the <header> element of the HTML file.
+```
+
+- [ ] C
+
+```
+  1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file.
+  2. Internal; CSS is included within the <header> element of the HTML file.
+  3. Inline; CSS is added to the HTML tag.
+```
+
+- [ ] D
+
+```
+  1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file.
+  2. Inline; CSS is added to the HTML tag.
+  3. Internal; CSS is included within the <head> element of the HTML file.
+```
+
+<details>
+<summary>Answer
+</summary>
 
 - [ ] A
 
@@ -472,6 +668,8 @@ section + p {
   2. Inline; CSS is added to the HTML tag.
   3. Internal; CSS is included within the <head> element of the HTML file.
 ```
+
+</details>
 
 #### Q21. Which statement is true for the SVG image format?
 
