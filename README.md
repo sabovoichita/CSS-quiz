@@ -35,15 +35,12 @@ div a
 <details>
 <summary>Answer
 </summary>
-<textarea>
-```
+
 - [x] `a[title]{...}`
 - [ ] `a > title {...}`
 - [ ] `a.title {...}`
 - [ ] `a=title {...}`
 
-```
-</textarea>
 </details>
 
 **Note:** an alternative to the question below.
@@ -53,16 +50,12 @@ div a
 <details>
 <summary>Answer
 </summary>
-<textarea>
-```
 
 - [x] `a[title]`
 - [ ] `a > title`
 - [ ] `a=title`
 - [ ] `a.title`
 
-````
-</textarea>
 </details>
 
 - [ ] `a[title]`
@@ -77,17 +70,15 @@ div a
 - [ ] Use the "clearfix hack" on the floated element and add a float to the parent element.
 - [ ] Use the overflow property on the floated element or the "clearfix hack" on either the floated or parent element.
 - [ ] Use the "clearfix hack" on the floated element or the overflow property on the parent element.
-- [x] Use the "clearfix hack" on the parent element or use the overflow property with a value other than "visible."
+- [ ] Use the "clearfix hack" on the parent element or use the overflow property with a value other than "visible."
 
 <details>
 <summary>Answer
 </summary>
-<textarea>
-```
-
-````
-
-</textarea>
+- [ ] Use the "clearfix hack" on the floated element and add a float to the parent element.
+- [ ] Use the overflow property on the floated element or the "clearfix hack" on either the floated or parent element.
+- [ ] Use the "clearfix hack" on the floated element or the overflow property on the parent element.
+- [x] Use the "clearfix hack" on the parent element or use the overflow property with a value other than "visible."
 </details>
 
 #### Q5. What element(s) do the following selectors match?
@@ -113,7 +104,7 @@ div a
 ```
 
 - [ ] B `They all target the same nav element.`
-- [x] C
+- [ ] C
 
 ```
   1. An element with a class of "nav"
@@ -132,12 +123,31 @@ div a
 <details>
 <summary>Answer
 </summary>
-<textarea>
+- [ ] A
+
+```
+  1. An element with an ID of "nav"
+  2. A nav element
+  3. An element with a class of "nav"
 ```
 
-````
+- [ ] B `They all target the same nav element.`
+- [x] C
 
-</textarea>
+```
+  1. An element with a class of "nav"
+  2. A nav element
+  3. An element with an id of "nav"
+```
+
+- [ ] D
+
+```
+  1. An element with a class of "nav"
+  2. A nav element
+  3. A div with an id of "nav"
+```
+
 </details>
 
 #### Q6. When adding transparency styles, what is the difference between using the opacity property versus the background property with a `rgba()` value?
@@ -2628,4 +2638,7 @@ input.invalid {
 - [ ] IDs are denoted by a period (.) followed by the ID name, while classes use a hash (#).
 - [ ] Classes have higher specificity in CSS than IDs.
 - [ ] There is no difference between a class and an id.
-````
+
+```
+
+```
