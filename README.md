@@ -17,14 +17,12 @@ div a
 <details>
 <summary>Answer
 </summary>
-<textarea>
 
 - [x] `.example a`
 - [ ] `div a`
 - [ ] `a`
 - [ ] `ul li a`
 
-</textarea>
 </details>
 
 #### Q2. Using an attribute selector, how would you select an `<a>` element with a "title" attribute?
