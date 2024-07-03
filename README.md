@@ -47,6 +47,11 @@ div a
 
 #### Q3. What is the CSS selector for an `<a>` tag containing the title attribute?
 
+- [ ] `a[title]`
+- [ ] `a > title`
+- [ ] `a=title`
+- [ ] `a.title`
+
 <details>
 <summary>Answer
 </summary>
@@ -57,11 +62,6 @@ div a
 - [ ] `a.title`
 
 </details>
-
-- [ ] `a[title]`
-- [ ] `a > title`
-- [ ] `a=title`
-- [ ] `a.title`
 
 **Note:** an alternative to the question above.
 
@@ -75,10 +75,12 @@ div a
 <details>
 <summary>Answer
 </summary>
+
 - [ ] Use the "clearfix hack" on the floated element and add a float to the parent element.
 - [ ] Use the overflow property on the floated element or the "clearfix hack" on either the floated or parent element.
 - [ ] Use the "clearfix hack" on the floated element or the overflow property on the parent element.
 - [x] Use the "clearfix hack" on the parent element or use the overflow property with a value other than "visible."
+
 </details>
 
 #### Q5. What element(s) do the following selectors match?
@@ -104,6 +106,7 @@ div a
 ```
 
 - [ ] B `They all target the same nav element.`
+
 - [ ] C
 
 ```
@@ -132,6 +135,7 @@ div a
 ```
 
 - [ ] B `They all target the same nav element.`
+
 - [x] C
 
 ```
@@ -154,8 +158,17 @@ div a
 
 - [ ] Opacity specifies the level of transparency of the child elements. Background with a `rgba()` value applies transparency to the background color only.
 - [ ] Opacity applies transparency to the background color only. Background with an `rgba()` value specifies the level of transparency of an element, as a whole, including its content.
+- [ ] Opacity specifies the level of transparency of an element, including its content. Background with a `rgba()` value applies transparency to the background color only.
+- [ ] Opacity applies transparency to the parent and child elements. Background with a `rgba()` value specifies the level of transparency of the parent element only.
+
+<details>
+<summary>Answer
+</summary>
+- [ ] Opacity specifies the level of transparency of the child elements. Background with a `rgba()` value applies transparency to the background color only.
+- [ ] Opacity applies transparency to the background color only. Background with an `rgba()` value specifies the level of transparency of an element, as a whole, including its content.
 - [x] Opacity specifies the level of transparency of an element, including its content. Background with a `rgba()` value applies transparency to the background color only.
 - [ ] Opacity applies transparency to the parent and child elements. Background with a `rgba()` value specifies the level of transparency of the parent element only.
+</details>
 
 #### Q7. What is true of block and inline elements? (_Alternative_: Which statement about block and inline elements is true?)
 
